@@ -16,14 +16,6 @@ background-attachment: fixed;
   font-weight: bold;
 }
 
-.t {
-  display: inline-block;
-}
-
-.tt {
-  display: inline-block;
-}
-
 .image {
   margin-left: 50px;
 }
@@ -32,13 +24,16 @@ img.monika {
   float: left;
 }
 
-img.natsuki {
+.natsuki {
+  display: inline-block;
   float: left;
+  float: top;
 }
 
 img.sayori {
   display: inline-block;
   float: left;
+  float: top;
 }
 
 .text {

@@ -16,6 +16,14 @@ background-attachment: fixed;
   font-weight: bold;
 }
 
+.t {
+  display: inline-block;
+}
+
+.tt {
+  display: inline-block;
+}
+
 .image {
   margin-left: 50px;
 }
@@ -24,18 +32,12 @@ img.monika {
   float: left;
 }
 
-img.yuri {
-  float: left;
-}
-
 img.natsuki {
-  position: absolute; right: 340px;
   float: left;
 }
 
 img.sayori {
-  position: absolute; top: 340px;
-  position: absolute; right: 360px;
+  display: inline-block;
   float: left;
 }
 

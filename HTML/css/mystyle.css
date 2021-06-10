@@ -1,12 +1,21 @@
 body {
-background-image: url('7.jpg');
-background-repeat: no-repeat;
+background-image: url('../images/7.jpg');
+/*background-repeat: no-repeat;*/
 background-attachment: fixed;
 }
 
 @font-face {
     font-family: Patchwork Stitchlings;
-    src: url('Patchword Stitchlings.ttf');
+    src: url('../fonts/Patchword Stitchlings.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Volaroid Script;
+  src: url('../fonts/Volaroid Script.ttf') format('truetype');
+}
+
+.media-title {
+  font-family: Volaroid Script;
 }
 
 .title {
